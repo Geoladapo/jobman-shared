@@ -1,5 +1,5 @@
 {
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "main": "index.js",
   "description": "Helpers library for Jobman app",
@@ -18,11 +18,11 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "name": "@Geoladapo/jobman-shared",
+  "name": "@eoladapo/jobman-shared",
   "author": "Elijah Oladapo",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Geoladapo/jobman-shared.git"
+    "url": "git+https://github.com/eoladapo/jobman-shared.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
