@@ -35,7 +35,7 @@ export function verifyGatewayRequest(
   try {
     const payload: { id: string; iat: number } = JWT.verify(
       token,
-      '1282722b942e08c8a6cb033aa6ce850e'
+      '5d00a7ee07e3f4ffb4bfcaf9f91fc9a2429609be9b28911dfd9074f83642567f'
     ) as { id: string; iat: number };
     if (!tokens.includes(payload.id)) {
       throw new NotAuthorizedError(
